@@ -83,11 +83,3 @@ Resultado esperado:
 
 - PHP 5.6 no recibe parches de seguridad desde 2018: aislar y no exponer a internet.
 - La app de prueba no incluye base de datos, sesiones compartidas ni archivos subidos.
-
-## Próximos pasos
-
-- [ ] Base de datos y Redis (sesiones compartidas)
-- [ ] Volumen para archivos subidos
-- [ ] Secrets y ConfigMaps
-- [ ] Pruebas de resiliencia y rollback
-- [ ] Análisis de compatibilidad con PHPCompatibility y Rector
