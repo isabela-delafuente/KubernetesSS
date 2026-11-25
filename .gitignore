@@ -1,0 +1,45 @@
+# Secretos y credenciales
+.env
+.env.*
+secrets/
+*secret*.yaml
+*secret*.yml
+*.key
+*.pem
+*.crt
+*.p12
+id_rsa*
+id_ed25519*
+*.kubeconfig
+kubeconfig
+config.local.*
+
+# Evidencias con datos del entorno (IPs, hosts)
+
+evidencia.txt
+*.log
+
+# Volcados de base de datos
+
+*.sql
+*.sql.gz
+*.dump
+
+# CR
+
+sistema-real/
+legacy-real/
+
+#Dependencias y compilados
+
+vendor/
+node_modules/
+
+#Archivos del sistema y editores
+
+.DS_store
+Thumbs.db
+*.swp
+*~
+.vscode/
+.idea/
